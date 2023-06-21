@@ -1,17 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <h2>Calculadora con VUE</h2>
+  <calculadoraCom />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CalculadoraCom from "./components/CalculadoraCom.vue";
+
 
 export default {
-  name: 'App',
+  //Este componente se puede utilizar en diferentes paginas
+  //Configurar la opcion components
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    CalculadoraCom,
+  },
+};
 </script>
 
 <style>
