@@ -1,19 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <h2>Calculadora con VUE</h2>
-  <calculadoraCom />
+  <EjemploApi />
 </template>
 
 <script>
-import CalculadoraCom from "./components/CalculadoraCom.vue";
-
+import EjemploApi from "./components/EjemploApi.vue";
 
 export default {
   //Este componente se puede utilizar en diferentes paginas
   //Configurar la opcion components
-  name: "App",
   components: {
-    CalculadoraCom,
+    //ExampleSelective,
+    //ExampleFor,
+    EjemploApi,
   },
 };
 </script>
