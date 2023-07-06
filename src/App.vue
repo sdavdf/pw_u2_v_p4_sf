@@ -1,19 +1,22 @@
 <template>
-  <EjemploApi />
+  
+  <PokemonPage></PokemonPage>
+ 
 </template>
 
 <script>
-import EjemploApi from "./components/EjemploApi.vue";
+import PokemonPage from './modules/pokemon/pages/PokemonPage.vue';
+
+
 
 export default {
-  //Este componente se puede utilizar en diferentes paginas
-  //Configurar la opcion components
+  name: 'App',
   components: {
-    //ExampleSelective,
-    //ExampleFor,
-    EjemploApi,
-  },
-};
+
+      PokemonPage
+    
+  }
+}
 </script>
 
 <style>
