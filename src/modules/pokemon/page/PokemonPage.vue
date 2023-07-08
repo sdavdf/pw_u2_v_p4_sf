@@ -109,7 +109,7 @@ export default {
   cursor: pointer;
 }
 .reiniciar-button:hover {
-  background-color: aquamarine;
+  background-color: rgb(127, 204, 255);
 }
 
 .game-termina {
